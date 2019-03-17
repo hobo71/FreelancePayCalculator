@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Calculate Your Rate!</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="css\style.css" type="text/css">
+</head>
+
+<body>
+  <script src="js\calculate.js"></script>
+  <div>
+    <h2>Calculate Your Rate!</h2>
+    <form>
+      Price Per Hour:<br>
+      <input type="number" name="price" id="price" value="0" min="0"><br><br><br> 
+      Hours Worked:<br>
+      <input type="number" name="hours" id="hours" value="0" min="0"> <br><br><br>
+    </form>
+
+    <button onclick="calculate()">Submit</button> <br><br>
+    
+    <p>You Should Be Paid:</p>
+    <p id="total">calculating...</p>
+    <p>For Your Amazing Work!</p>
+  </div>
+</body>
+
+</html>

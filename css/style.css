@@ -1,0 +1,26 @@
+* {
+	font-family: Helvetica;
+	font-family: Krungthep;
+	color: white;
+}
+body {
+	background-color: #b3b3f1;
+	text-align: center;
+}
+h2 {
+	color: #fdf5bf;
+}
+
+button {
+	background-color: #fdf5bf;
+	border-radius: 8px;
+	padding: 10px;
+	color: #b3b3f1;
+}
+
+#price,
+#hours {
+	border-radius: 15px;
+	padding: 7px;
+	color: black;
+}
